@@ -1,23 +1,20 @@
 import { createContext, useState } from "react";
 
-
-
 export const AdminContext = createContext({
-    showSlidebar:false,
-    setShowSlidebar:()=>{}
-})
+    showSidebar: false,
+    setShoeSidebar: ()=>{}
+});
 
 const AdminContextContainer = ({children})=>{
-    const[showSlidebar , setShowSlidebar] = useState(false);
-    return(
+    const [showSidebar , setShoeSidebar] = useState(false)
+    return (
         <AdminContext.Provider value={{
-            showSlidebar,
-            setShowSlidebar
+            showSidebar,
+            setShoeSidebar
         }}>
             {children}
         </AdminContext.Provider>
-   )
-
+    )
 }
 
 export default AdminContextContainer;

@@ -110,8 +110,6 @@ body{
     white-space: nowrap !important;
 }
 
-.link-item{text-decoration: none !important;}
-
 .text_truncate{
     display: block;
     white-space: nowrap;
@@ -135,7 +133,6 @@ td , th {
     transition: var(--transition_300);
     filter: drop-shadow(0 0 6px white);
     -webkit-filter: drop-shadow(0 0 6px white);
-    border-radius: 10px;
 }
 
 .top_navbar .navbar-brand img:hover{
@@ -227,27 +224,27 @@ td , th {
     transform: scale(1);
 }
 
-#sidebar_section .mini_sidebar .sidebar-item{
+#sidebar_section .mini_sidebar .siebar_items{
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
 }
 
-#sidebar_section .mini_sidebar .sidebar-item:not(:first-child):hover{
+#sidebar_section .mini_sidebar .siebar_items:not(:first-child):hover{
     background-color: rgb(85, 84, 84);
 }
 
-#sidebar_section .mini_sidebar .sidebar-item:not(:first-child){
+#sidebar_section .mini_sidebar .siebar_items:not(:first-child){
     justify-content: right;
 }
 
-#sidebar_section .mini_sidebar .sidebar-item .sidebar_avatar_name{
+#sidebar_section .mini_sidebar .siebar_items .sidebar_avatar_name{
     position: absolute;
     bottom: 0;
 }
 
-#sidebar_section .mini_sidebar .sidebar-item.avatar_sidebar-item{
+#sidebar_section .mini_sidebar .siebar_items.avatar_li{
     height: 110px !important;
     overflow: hidden;
 }
@@ -282,6 +279,10 @@ td , th {
 }
 .sidebar_menu_item.active{
     background: rgb(85, 84, 84);
+}
+
+.siebar_items{
+    text-decoration: none;
 }
 
 /* sidebar end-------<<<<<<< */
