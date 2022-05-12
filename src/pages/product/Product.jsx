@@ -31,7 +31,7 @@ const Product = () => {
         </div>
       </div>
 
-      <TableProduct />
+      <TableProduct/>
       <AddProduct />
     </div>
   );
