@@ -11,6 +11,7 @@ import Discount from './discount/Discount';
 import Guaranty from './guaranty/Guaranty';
 import Order from './order/Order';
 import Product from './product/Product';
+import Role from './role/Role';
 import User from './user/User';
 
 const Content = () => {
@@ -30,6 +31,7 @@ const Content = () => {
             <Route path='/orders' element={<Order/>}/>
             <Route path='/deliveries' element={<Delivery/>}/>
             <Route path='/users' element={<User/>}/>
+            <Route path='/roles' element={<Role/>}/>
 
             <Route path='*' element={<Dashboard/>}/>
           </Routes>

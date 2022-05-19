@@ -28,7 +28,7 @@ const Index = () => {
           {/* <!-- =================================== --> */}
           <SidebarGroupTitle title="کاربران و همکاران"/>
           <SidebarItem targetPath="/users" icon="fas fa-users" title="مشاهده کاربران"/>
-          <SidebarItem targetPath="/test" icon="fas fa-user-tag" title="نقش ها"/>
+          <SidebarItem targetPath="/roles" icon="fas fa-user-tag" title="نقش ها"/>
           <SidebarItem targetPath="/test" icon="fas fa-shield-alt" title="مجوز ها"/>
           {/* <!-- =================================== --> */}
           <SidebarGroupTitle title="ارتباطات"/>
