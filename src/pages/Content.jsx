@@ -10,6 +10,7 @@ import Delivery from './delivery/Delivery';
 import Discount from './discount/Discount';
 import Guaranty from './guaranty/Guaranty';
 import Order from './order/Order';
+import Permission from './permission/Permission';
 import Product from './product/Product';
 import Role from './role/Role';
 import User from './user/User';
@@ -32,6 +33,7 @@ const Content = () => {
             <Route path='/deliveries' element={<Delivery/>}/>
             <Route path='/users' element={<User/>}/>
             <Route path='/roles' element={<Role/>}/>
+            <Route path='/permissions' element={<Permission/>}/>
 
             <Route path='*' element={<Dashboard/>}/>
           </Routes>

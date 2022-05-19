@@ -29,7 +29,7 @@ const Index = () => {
           <SidebarGroupTitle title="کاربران و همکاران"/>
           <SidebarItem targetPath="/users" icon="fas fa-users" title="مشاهده کاربران"/>
           <SidebarItem targetPath="/roles" icon="fas fa-user-tag" title="نقش ها"/>
-          <SidebarItem targetPath="/test" icon="fas fa-shield-alt" title="مجوز ها"/>
+          <SidebarItem targetPath="/permissions" icon="fas fa-shield-alt" title="مجوز ها"/>
           {/* <!-- =================================== --> */}
           <SidebarGroupTitle title="ارتباطات"/>
           <SidebarItem targetPath="/test" icon="fas fa-question-circle" title="سوال ها"/>
