@@ -6,6 +6,7 @@ import Cart from './cart/Cart';
 import Category from './category/Category';
 import Color from './color/color';
 import Dashboard from './dashboard/Dashboard';
+import Delivery from './delivery/Delivery';
 import Discount from './discount/Discount';
 import Guaranty from './guaranty/Guaranty';
 import Order from './order/Order';
@@ -26,6 +27,7 @@ const Content = () => {
             <Route path='/discounts' element={<Discount/>}/>
             <Route path='/carts' element={<Cart/>}/>
             <Route path='/orders' element={<Order/>}/>
+            <Route path='/deliveries' element={<Delivery/>}/>
 
             <Route path='*' element={<Dashboard/>}/>
           </Routes>
