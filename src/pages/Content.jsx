@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Route, Routes } from 'react-router';
 import { AdminContext } from '../context/adminLayoutContext';
 import Category from './category/Category';
+import Color from './color/color';
 import Dashboard from './dashboard/Dashboard';
 import Product from './product/Product';
 
@@ -14,6 +15,7 @@ const Content = () => {
             <Route path='/' element={ <Dashboard/>}/>
             <Route path='/categories' element={<Category/>}/>
             <Route path='/products' element={<Product/>}/>
+            <Route path='/colors' element={<Color/>}/>
 
             <Route path='*' element={<Dashboard/>}/>
           </Routes>
