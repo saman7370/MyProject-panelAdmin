@@ -8,6 +8,7 @@ import Color from './color/color';
 import Dashboard from './dashboard/Dashboard';
 import Discount from './discount/Discount';
 import Guaranty from './guaranty/Guaranty';
+import Order from './order/Order';
 import Product from './product/Product';
 
 const Content = () => {
@@ -24,6 +25,7 @@ const Content = () => {
             <Route path='/brands' element={<Brand/>}/>
             <Route path='/discounts' element={<Discount/>}/>
             <Route path='/carts' element={<Cart/>}/>
+            <Route path='/orders' element={<Order/>}/>
 
             <Route path='*' element={<Dashboard/>}/>
           </Routes>
