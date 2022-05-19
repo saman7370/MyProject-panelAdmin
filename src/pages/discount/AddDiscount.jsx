@@ -9,10 +9,10 @@ const AddDiscount = () => {
             </button>
 
             <ModalsContainer
-            fullscreen={false}
+            fullscreen={true}
             id={"add_discount_modal"}
             title={"افزودن تخفیف"}>
-                
+
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-12 col-md-6 col-lg-8">

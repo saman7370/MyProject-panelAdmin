@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Route, Routes } from 'react-router';
 import { AdminContext } from '../context/adminLayoutContext';
 import Brand from './brand/Brand';
+import Cart from './cart/Cart';
 import Category from './category/Category';
 import Color from './color/color';
 import Dashboard from './dashboard/Dashboard';
@@ -22,6 +23,7 @@ const Content = () => {
             <Route path='/guaranties' element={<Guaranty/>}/>
             <Route path='/brands' element={<Brand/>}/>
             <Route path='/discounts' element={<Discount/>}/>
+            <Route path='/carts' element={<Cart/>}/>
 
             <Route path='*' element={<Dashboard/>}/>
           </Routes>

@@ -22,7 +22,7 @@ const Index = () => {
           <SidebarItem targetPath="/discounts" icon="fas fa-percentage" title="مدیریت تخفیف ها"/>
           {/* <!-- =================================== --> */}
           <SidebarGroupTitle title="سفارشات و سبد"/>
-          <SidebarItem targetPath="/test" icon="fas fa-shopping-basket" title="مدیریت سبد ها"/>
+          <SidebarItem targetPath="/carts" icon="fas fa-shopping-basket" title="مدیریت سبد ها"/>
           <SidebarItem targetPath="/test" icon="fas fa-luggage-cart" title="مدیریت سفارشات"/>
           <SidebarItem targetPath="/test" icon="fas fa-truck-loading" title="مدیریت نحوه ارسال"/>
           {/* <!-- =================================== --> */}
