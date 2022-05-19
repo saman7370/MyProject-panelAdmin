@@ -19,7 +19,7 @@ const Index = () => {
           <SidebarItem targetPath="/brands" icon="fas fa-copyright"  title="مدیریت برندها"/>
           <SidebarItem targetPath="/guaranties" icon="fab fa-pagelines" title="مدیریت گارانتی ها"/>
           <SidebarItem targetPath="/colors" icon="fas fa-palette"  title="مدیریت رنگ ها"/>
-          <SidebarItem targetPath="/test" icon="fas fa-percentage" title="مدیریت تخفیف ها"/>
+          <SidebarItem targetPath="/discounts" icon="fas fa-percentage" title="مدیریت تخفیف ها"/>
           {/* <!-- =================================== --> */}
           <SidebarGroupTitle title="سفارشات و سبد"/>
           <SidebarItem targetPath="/test" icon="fas fa-shopping-basket" title="مدیریت سبد ها"/>
