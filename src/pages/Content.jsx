@@ -11,6 +11,7 @@ import Discount from './discount/Discount';
 import Guaranty from './guaranty/Guaranty';
 import Order from './order/Order';
 import Product from './product/Product';
+import User from './user/User';
 
 const Content = () => {
     const {showSidebar} = useContext(AdminContext)
@@ -28,6 +29,7 @@ const Content = () => {
             <Route path='/carts' element={<Cart/>}/>
             <Route path='/orders' element={<Order/>}/>
             <Route path='/deliveries' element={<Delivery/>}/>
+            <Route path='/users' element={<User/>}/>
 
             <Route path='*' element={<Dashboard/>}/>
           </Routes>

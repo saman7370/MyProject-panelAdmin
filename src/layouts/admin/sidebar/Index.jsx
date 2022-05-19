@@ -27,7 +27,7 @@ const Index = () => {
           <SidebarItem targetPath="/deliveries" icon="fas fa-truck-loading" title="مدیریت نحوه ارسال"/>
           {/* <!-- =================================== --> */}
           <SidebarGroupTitle title="کاربران و همکاران"/>
-          <SidebarItem targetPath="/test" icon="fas fa-users" title="مشاهده کاربران"/>
+          <SidebarItem targetPath="/users" icon="fas fa-users" title="مشاهده کاربران"/>
           <SidebarItem targetPath="/test" icon="fas fa-user-tag" title="نقش ها"/>
           <SidebarItem targetPath="/test" icon="fas fa-shield-alt" title="مجوز ها"/>
           {/* <!-- =================================== --> */}
