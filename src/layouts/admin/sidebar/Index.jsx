@@ -32,8 +32,8 @@ const Index = () => {
           <SidebarItem targetPath="/permissions" icon="fas fa-shield-alt" title="مجوز ها"/>
           {/* <!-- =================================== --> */}
           <SidebarGroupTitle title="ارتباطات"/>
-          <SidebarItem targetPath="/test" icon="fas fa-question-circle" title="سوال ها"/>
-          <SidebarItem targetPath="/test" icon="fas fa-comment" title="نظرات"/>
+          <SidebarItem targetPath="/questions" icon="fas fa-question-circle" title="سوال ها"/>
+          <SidebarItem targetPath="/comments" icon="fas fa-comment" title="نظرات"/>
         </div>
       </div>
     </section>

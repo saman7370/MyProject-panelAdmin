@@ -12,8 +12,10 @@ import Guaranty from './guaranty/Guaranty';
 import Order from './order/Order';
 import Permission from './permission/Permission';
 import Product from './product/Product';
+import Question from './question/Question';
 import Role from './role/Role';
 import User from './user/User';
+import Comment from './comment/Comment';
 
 const Content = () => {
     const {showSidebar} = useContext(AdminContext)
@@ -34,6 +36,8 @@ const Content = () => {
             <Route path='/users' element={<User/>}/>
             <Route path='/roles' element={<Role/>}/>
             <Route path='/permissions' element={<Permission/>}/>
+            <Route path='/questions' element={<Question/>}/>
+            <Route path='/comments' element={<Comment/>}/>
 
             <Route path='*' element={<Dashboard/>}/>
           </Routes>

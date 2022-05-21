@@ -1,31 +1,37 @@
 import React from 'react';
 
-const Carttable = () => {
+const Commenttable = () => {
     return (
         <>
             <table className="table table-responsive text-center table-hover table-bordered">
                 <thead className="table-secondary">
                     <tr>
                         <th>#</th>
-                        <th>آی دی مشتری</th>
-                        <th>نام مشتری</th>
-                        <th>تاریخ</th>
-                        <th>مبلغ کل سبد</th>
+                        <th>نام و نام خانوادگی</th>
+                        <th>نوع نظر</th>
+                        <th>برای</th>
+                        <th>قسمتی از متن</th>
                         <th>وضعیت</th>
+                        <th>تاریخ</th>
                         <th>عملیات</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>50</td>
                         <td>سامان مهرعلی</td>
-                        <td>1400/07/15</td>
-                        <td>100هزار تومان</td>
-                        <td>فعال</td>
+                        <td>نظر</td>
+                        <td>محصول فلان</td>
+                        <td>قسمتی از متن نظر برای این محصول مثلا 100 کارکتر</td>
                         <td>
-                            <i className="fas fa-edit text-warning mx-1 hoverable_text pointer has_tooltip" title="ویرایش و جزئیات سبد" data-bs-toggle="modal" data-bs-placement="top" data-bs-target="#edit_cart_modal"></i>
-                            <i className="fas fa-times text-danger mx-1 hoverable_text pointer has_tooltip" title="حذف سبد" data-bs-toggle="tooltip" data-bs-placement="top"></i>
+                            <div className="form-check form-switch d-flex justify-content-center align-items-center p-0 h-100">
+                                <label className="form-check-label pointer" for="flexSwitchCheckDefault">فعال</label>
+                                <input className="form-check-input pointer mx-3" type="checkbox" id="flexSwitchCheckDefault" />
+                            </div>
+                        </td>
+                        <td>1400/10/12</td>
+                        <td>
+                            <i className="fas fa-times text-danger mx-1 hoverable_text pointer has_tooltip" title="حذف نظر" data-bs-toggle="tooltip" data-bs-placement="top"></i>
                         </td>
                     </tr>
                 </tbody>
@@ -51,4 +57,4 @@ const Carttable = () => {
     );
 }
 
-export default Carttable;
+export default Commenttable;
