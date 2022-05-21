@@ -4,8 +4,8 @@ import ModalsContainer from '../../components/ModalsContainer';
 const Adduser = () => {
     return (
         <>
-            <button class="btn btn-success d-flex justify-content-center align-items-center" data-bs-toggle="modal" data-bs-target="#add_user_modal">
-                <i class="fas fa-plus text-light"></i>
+            <button className="btn btn-success d-flex justify-content-center align-items-center" data-bs-toggle="modal" data-bs-target="#add_user_modal">
+                <i className="fas fa-plus text-light"></i>
             </button>
             <ModalsContainer
             fullscreen={true}

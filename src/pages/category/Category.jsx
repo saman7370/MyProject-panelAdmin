@@ -1,5 +1,5 @@
 import React from "react";
-import Addcategory from "./AddCategory";
+import Categoryattribute from "./CategoryAttribute";
 import Categorytable from "./CategoryTable";
 
 const Category = () => {
@@ -10,6 +10,7 @@ const Category = () => {
     >
       <h4 className="text-center my-3">مدیریت دسته بندی محصولات</h4>
       <Categorytable />
+      <Categoryattribute/>
     </div>
   );
 };

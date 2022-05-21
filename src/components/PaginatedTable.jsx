@@ -93,7 +93,7 @@ const Paginatedtable = ({ children, data, DataInfo, additionFeild, searchParams 
               </li>
               {
                 pages.map(page => (
-                  <li className="page-item" key={page.id}>
+                  <li className="page-item" key={page}>
                     <span className={`page-link pointer ${currentPage == page ? "alert-success" : ""}`} onClick={() => setCurrentPage(page)}>
                       {page}
                     </span>
